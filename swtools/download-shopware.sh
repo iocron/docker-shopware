@@ -1,7 +1,9 @@
 #!/bin/bash
 
 if [ "$SHOPWARE_VERSION" = "latest"  ]; then
-  DOWNLOAD_URL="https://releases.shopware.com/install_5.6.4_3540d53b7727442cde5287b669c7d3b94f8a07c7.zip"
+  DOWNLOAD_URL="https://releases.shopware.com/install_5.6.5_482a9c1c64e67f009c47b25ebbf97a7f9f06066a.zip"
+elif [ "$SHOPWARE_VERSION" = "5.6.5"  ]; then
+  DOWNLOAD_URL="https://releases.shopware.com/install_5.6.5_482a9c1c64e67f009c47b25ebbf97a7f9f06066a.zip"
 elif [ "$SHOPWARE_VERSION" = "5.6.4"  ]; then
   DOWNLOAD_URL="https://releases.shopware.com/install_5.6.4_3540d53b7727442cde5287b669c7d3b94f8a07c7.zip"
 elif [ "$SHOPWARE_VERSION" = "5.6.3"  ]; then
@@ -21,7 +23,7 @@ elif [ "$SHOPWARE_VERSION" = "5.5.8"  ]; then
 elif [ "$SHOPWARE_VERSION" = "5.5.7"  ]; then
   DOWNLOAD_URL="https://releases.shopware.com/install_5.5.7_f785facc70e39f2ca4292e78739457417f19fbcf.zip"
 else
-  echo "Unsupported Shopware version for update: '$SHOPWARE_VERSION'" 
+  echo "Unsupported Shopware version for update: '$SHOPWARE_VERSION'"
   exit 1
 fi
 

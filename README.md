@@ -1,3 +1,10 @@
+For a full setup look at: https://github.com/iocron/docker-shopware-example
+
+# Quick Setup:
+```
+git clone https://github.com/iocron/docker-shopware-example.git && cd docker-shopware-example && docker-compose up
+```
+
 # See examples of working Shopware instances with docker-compose.yml here:
 - [Example of standard Shopware configuration with a mysql 5.7 database, PhpMyAdmin and mail emulator](https://github.com/dnhsoft/sw-docker-demo/blob/master/04-shopware-db-pma-cron-mail/docker-compose.yml)
 - [Example of multiple shops running at the same time](https://github.com/dnhsoft/sw-docker-demo/blob/master/05-multishops/docker-compose.yml)

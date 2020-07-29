@@ -12,6 +12,7 @@ git clone https://github.com/iocron/docker-shopware-example.git && cd docker-sho
 
 # Supported tags and respective `Dockerfile` links
 Note: Shopware 5.5.7 and above are based on PHP 7.2
+- `5.6.7` [5.6.7/Dockerfile](https://github.com/dnhsoft/docker-shopware/blob/5.6.7/Dockerfile)
 - `5.6.6` [5.6.6/Dockerfile](https://github.com/dnhsoft/docker-shopware/blob/5.6.6/Dockerfile)
 - `5.6.5` [5.6.5/Dockerfile](https://github.com/dnhsoft/docker-shopware/blob/5.6.5/Dockerfile)
 - `5.6.4` [5.6.4/Dockerfile](https://github.com/dnhsoft/docker-shopware/blob/5.6.4/Dockerfile)
